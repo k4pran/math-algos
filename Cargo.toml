@@ -10,4 +10,9 @@ edition = "2018"
 name = "multiples"
 path = "src/multiples.rs"
 
+[[bin]]
+name = "factors"
+path = "src/factors.rs"
+
 [dependencies]
+clap = "2.33.0"
